@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Pages by dceejay</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/dceejay/pages">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/dceejay/pages/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/dceejay/pages/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Pages</h1>
+          <p>Some random static web pages</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/dceejay">dceejay</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h2>
+<a id="running-node-red-on-android" class="anchor" href="#running-node-red-on-android" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Running Node-RED on Android</h2>
+
+<p>The <a href="https://termux.com">Termux</a> app in the android app store makes it easy to run Node-RED on android devices. You can get it <a href="https://play.google.com/store/apps/details?id=com.termux&amp;hl=en_GB">here</a>.</p>
+
+<p>Install it, and run it. Then at the prompt type</p>
+
+<pre><code>apt update
+apt upgrade
+apt install coreutils nano nodejs
+npm install -g --unsafe-perm node-red
+node-red
+</code></pre>
+
+<p>Then you can point a browser to localhost:1880</p>
+
+<h4>
+<a id="notes" class="anchor" href="#notes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notes</h4>
+
+<ul>
+<li>You can npm install other node-red nodes such as <code>node-red-dashboard</code>.</li>
+<li>The <code>volume-down</code> key is the ctrl key - so <code>vol-down-c</code> can be used to "break" a running app.</li>
+<li>The instructions above also install the <code>nano</code> editor, as I find it useful for hacking files.</li>
+<li>For a discussion on autostarting - see <a href="https://github.com/termux/termux-app/issues/14">this thread</a> on the Termux Github project.</li>
+<li>Likewise <a href="https://github.com/termux/termux-packages">here is a list</a> of other useful Termux packages.</li>
+</ul>
+
+<h2>
+<a id="tbd" class="anchor" href="#tbd" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TBD</h2>
+
+<h3>
+<a id="autostarting" class="anchor" href="#autostarting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Autostarting</h3>
+
+<p><a href="https://play.google.com/store/apps/details?id=com.autostart&amp;hl=en_GB">https://play.google.com/store/apps/details?id=com.autostart&amp;hl=en_GB</a></p>
+
+<h3>
+<a id="device-access" class="anchor" href="#device-access" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Device Access</h3>
+
+<p><a href="https://play.google.com/store/apps/details?id=com.termux.api&amp;hl=en">https://play.google.com/store/apps/details?id=com.termux.api&amp;hl=en</a></p>
+
+<p><a href="https://termux.com/add-on-api.html">https://termux.com/add-on-api.html</a></p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
